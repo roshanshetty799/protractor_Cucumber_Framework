@@ -1,4 +1,6 @@
-# super-AOL-e2e-automation
+# E2E-automation
+
+Note : This framework was used for internal purposes and needs the right environment to run. However, with env config changes and new page objects, this framework is fit for general purposes. (which will eventually be addressed by me so that it's a fit for all E2E automation)
 
 ## Description
     This Test Automation Framework makes it possible to run E2E test scenarios on AOL website accross multiple
@@ -54,13 +56,7 @@
          npm test -- --params.clientName <clientName> --params.hostName <hostName> --suite <suiteName> 
        (Tailor the command as per your requirement with the options available below)
        
-       clientName : ing / statewide
-       hostName   : webdev / websupport        
-       suite      : ing / statewide
-      
-      For example : If you wish to run the ing suite accross websupport on ING - AOL then the command line parameters would 
-      look as follows : npm test -- --params.clientName ing --params.hostName websupport --suite ing 
-      
+  
       5. The browser should open up and text execution would begin. You can keep an eye on the console while the execution is 
-      in progress to monitor which step it is on. Once execution is complete, an execution report can be found under 'reports' dir.
+      in progress to monitor which step it is on. Once execution is complete, an execution report can be found under 'reports'     dir.
       Open 'index.html' file in a browser to view it.  
