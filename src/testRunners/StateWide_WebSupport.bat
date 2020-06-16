@@ -1,1 +1,0 @@
-npm test -- --params.clientName statewide --params.hostName websupport --suite statewide
