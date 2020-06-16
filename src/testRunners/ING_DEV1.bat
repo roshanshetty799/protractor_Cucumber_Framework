@@ -1,0 +1,1 @@
+npm test -- --params.clientName ing --params.hostName webdev --suite ing

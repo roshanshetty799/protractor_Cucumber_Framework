@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b9f59c4-7020-456a-9b1f-0aa096007cc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pageObjects/ValuationPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protractor.conf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/protractor.conf.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databaseHelpers/DataBasePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/databaseHelpers/DataBasePage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/postHooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/postHooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/preHooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/preHooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/AdminMemberSearchPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/AdminMemberSearchPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/BasePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/BasePage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/BeneficiariesPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/BeneficiariesPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/CentrelinkSchedulePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/CentrelinkSchedulePage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/LoginPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/LoginPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/MoneyInPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/MoneyInPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/PensionPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/PensionPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/ProfilePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/ProfilePage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/ReversionaryPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/ReversionaryPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/ShareTradingPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/ShareTradingPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/centrelinkScheduleStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/centrelinkScheduleStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/contributeToYourSuperStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/contributeToYourSuperStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/contributionMixStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/contributionMixStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/myBeneficiariesStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/myBeneficiariesStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/pensionDetailsStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/pensionDetailsStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/resuableStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/resuableStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/reversionaryDetailsStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/reversionaryDetailsStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/tradeShareAndExchangeTradedFundsStepDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepDefinitions/tradeShareAndExchangeTradedFundsStepDef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCases/ing/Beneficiary_Details.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/testCases/ing/Beneficiary_Details.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomAssertion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomAssertion.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomBrowserDriver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomBrowserDriver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomWait.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomWait.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cmwYdQmut8wTc5ekyun7W7FsAl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\AutomationProject\super-aol-e2e-automation\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="npm.ING_WebSupport">
+    <configuration name="ING_WebDev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <arguments value="-- --params.clientName ing --params.hostName webdev --suite ing" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ING_WebSupport" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <arguments value="-- --params.clientName ing --params.hostName websupport --suite ing" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="StateWide_WebDev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <arguments value="-- --params.clientName statewide --params.hostName webdev --suite statewide" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="StateWide_WebSupport" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <arguments value="-- --params.clientName statewide --params.hostName websupport --suite statewide" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.ING_WebDev" />
+      <item itemvalue="npm.ING_WebSupport" />
+      <item itemvalue="npm.StateWide_WebDev" />
+      <item itemvalue="npm.StateWide_WebSupport" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b9f59c4-7020-456a-9b1f-0aa096007cc2" name="Default Changelist" comment="" />
+      <created>1591147125246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591147125246</updated>
+      <workItem from="1591147129360" duration="6743000" />
+      <workItem from="1591241776595" duration="8700000" />
+      <workItem from="1591844824070" duration="7913000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591147820514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591147820514" />
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom" timestamp="1592192564829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592192564829" />
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
+    <state width="1877" height="435" key="GridCell.Tab.0.center" timestamp="1592192564829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="435" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592192564829" />
+    <state width="1877" height="435" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
+    <state width="1877" height="435" key="GridCell.Tab.0.left" timestamp="1592192564829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="435" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592192564829" />
+    <state width="1877" height="435" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
+    <state width="1877" height="435" key="GridCell.Tab.0.right" timestamp="1592192564829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="435" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592192564829" />
+    <state width="1877" height="435" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
+    <state x="2576" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1591844840002">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591241867381" />
+    <state x="2576" y="345" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1591844840002" />
+    <state x="334" y="190" width="1419" height="1025" key="dock-window-1" timestamp="1591242195896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="190" width="1419" height="1025" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1591242195896" />
+  </component>
+</project>
