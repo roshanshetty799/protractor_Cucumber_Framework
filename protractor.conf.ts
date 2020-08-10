@@ -1,12 +1,13 @@
-import {Config} from "protractor";
-import {createNewDir} from "./src/utils/fileSystemUtil";
+import {browser, Config} from "protractor";
+
 import {currentDateAndTime, generateHtmlReport} from "./src/utils/reportUtil";
+import {createNewDir} from "./src/utils/fileSystemUtil";
 
 
-/*
-Configuration to run your cucumber
-feature files and step definitions with protractor.
-**/
+/**
+* Configuration to run your cucumber
+* feature files and step definitions with protractor.
+*/
 
 export let config: Config = {
     // set to "custom" instead of cucumber.
@@ -31,13 +32,23 @@ export let config: Config = {
             ]
         }
 
+        // browserName: 'firefox',
+        //
+        // capabilities: {
+        //     'browserName': 'firefox',
+        //     'moz:firefoxOptions': {
+        //         'args': ['--safe-mode']
+        //     }
+        // },
+
 
     },
 
 
     params: {
-        clientName: 'ing',
-        hostName: 'websupport',
+        clientName: '',
+        hostName: ''
+
 
     },
 
@@ -45,11 +56,11 @@ export let config: Config = {
     restartBrowserBetweenTests: false,
 
     suites: {
-        ing: '../src/testCases/ing/**/*.feature',
-        statewide: '../src/testCases/statewide/**/*.feature',
+        TestCaseSuiteOne: '../src/testCases/TestCaseSuiteOne/**/*.feature',
+        TestCaseSuiteTwo: '../src/testCases/TestCaseSuiteTwo/**/*.feature',
     },
 
-    suite: 'Please specify a suite to run. Available options - ing, statewide',
+    suite: 'Please specify a suite to run. Available options - TestCaseSuiteOne, TestCaseSuiteTwo',
 
 
     // specs: [`../src/testCases/**/*.feature`],
@@ -65,7 +76,7 @@ export let config: Config = {
         require: ['./**/*.js'],  // require step definition files before executing features
         tags: [],                      // <string[]> (expression) only execute the features or scenarios with tags matching the expression
         strict: true,                  // <boolean> fail if there are any undefined or pending steps
-        format: ["json:./reports/" + currentDateAndTime + "/report.json", require.resolve('cucumber-pretty')],            // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
+        format: ["json:./report.json", require.resolve('cucumber-pretty')],            // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
         'dry-run': false,              // <boolean> invoke formatters without executing steps
         compiler: []                 // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
 
@@ -74,20 +85,17 @@ export let config: Config = {
     plugins: [],
 
     onPrepare: () => {
-        createNewDir("./reports");
-        createNewDir("./reports/" + currentDateAndTime);
-
-
-    },
+        createNewDir(`./reports/${browser.params.clientName}/${browser.params.hostName}/${currentDateAndTime}/`);
+        },
 
     afterLaunch: () => {
 
     },
 
-    onComplete: () => {
+    onComplete: async () => {
 
         // new reportExtension().generateHtmlReport();
-        generateHtmlReport();
+        await generateHtmlReport();
 
     }
 
