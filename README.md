@@ -2,13 +2,9 @@
 
 
 ## Description
-    This Test Automation Framework makes it possible to run E2E test scenarios on Web Applications.
-	The foundations of the framework are built upon two open source tools Protractor and
-    Cucumber. Protractor allows you to interact with the browser like a user would and 
-    Cucumber helps organising the test scenarios in an easy readable format. 
-	   Protractor is built for angular website and thus the framework won't need any custom wait/sleep
-    method to your tests however I wanted the framework to be compatible with non-angular websites as well
-    and so the framework has custom wait methods which are wrapped with browser(driver) calls. 	
+
+This Test Automation Framework makes it possible to run E2E test scenarios on Web Applications.The foundations of the framework are built upon two open source     tools Protractor and Cucumber. Protractor allows you to interact with the browser like a user would and Cucumber helps organising the test scenarios in an easy readable format. 
+  Protractor is built for angular website and thus the framework won't need any custom wait/sleep method to your tests however I wanted the framework to be compatible with non-angular websites as well and so the framework has custom wait methods which are wrapped with browser(driver) calls. Report is generated after every run with the current Date and time. Framework has support for Database and SOAP calls.  	
 	
 	   
      
@@ -16,14 +12,14 @@
 
      .  
         ├── reports                # Contains E2E run report. This directory is not checked in and will be created after the first run
-		├── logs                   # Every driver action generates a custom log which is captured in this directory
+	├── logs                   # Every driver action generates a custom log which is captured in this directory
         ├── src                    
         │   ├── env                # Environment details are configured in environmentProps.json file located here.
         │   ├── hooks              # Functions/Calls to be made before/after scenarios are stored here
         │   ├── pageObjects        # Element locators and functions to perform actions on the application
         │   ├── stepDefinitions    # Cucumber Step definitions are detailed here
         │   ├── testCases          # Test Scenarios can be found under this dir  
-		│   ├── testRunner         # The Framework is designed to run on multiple environments. Each testRunner file would hold run parameter for one env. 
+	│   ├── testRunner         # The Framework is designed to run on multiple environments. Each testRunner file would hold run parameter for one env. 
         │   ├── utils              # Helper functions for the framework
         │   └── wrappers           # Native functions for browser,SQL Driver,SOAP,WAIT etc. are wrapped in a custom function                
         ├── protractor.conf.ts     # Protractor run configuration details
@@ -46,10 +42,10 @@
       
       To run the suite : 
       
-      1. Clone this project : https://github.com/oneiress/super-aol-e2e-automation.git
+      1. Clone this project : https://github.com/roshanshetty799/protractor_Cucumber_Framework.git
          To clone this to your system, open cmd or Git Bash and enter the following : 
               ```
-              git clone https://github.com/oneiress/super-aol-e2e-automation.git
+              git clone https://github.com/roshanshetty799/protractor_Cucumber_Framework.git
               ```
       
       2. Navigate inside 'protractor_Cucumber_Framework' dir that you just cloned. 
@@ -58,7 +54,7 @@
          Wait till you receive a success message. 
       
       
-	  4. Go to ./src/testRunner and double click on any of the runner filers. These would run a sample test case depending 
+	  4. Go to ./src/testRunner and double click on any of the runner file. These would run a sample test case depending 
 	     upon which one you run. 
        
   
