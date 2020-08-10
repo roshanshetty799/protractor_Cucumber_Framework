@@ -54,8 +54,7 @@ This Test Automation Framework makes it possible to run E2E test scenarios on We
       
       
       
-      
-	  3. Go to ./src/testRunner and double click on any of the runner file. These would run a sample test case depending 
+      3. Go to ./src/testRunner and double click on any of the runner file. These would run a sample test case depending 
 	     upon which one you run. The sample test case would run on a demo website. 
        
   
