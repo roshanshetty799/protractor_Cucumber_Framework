@@ -10,8 +10,6 @@ export const getSqlDatabaseName = (clientName, hostName) => envProps[clientName]
 export const getClientUsername = (clientName) => envProps[clientName].login.username;
 export const getClientPassword = (clientName) => envProps[clientName].login.password;
 export const getBaseURL = () => envProps.baseURL;
-export const getClientFund = (clientName,fundType) => envProps[clientName].fund[fundType];
-export const getClientCategory = (clientName,categoryType)=> envProps[clientName].categoryCode[categoryType];
 export const getWebServiceURL = (clientName,hostName)=> envProps[clientName].host[hostName].webService;
 
 

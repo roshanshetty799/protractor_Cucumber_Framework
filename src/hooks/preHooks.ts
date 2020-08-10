@@ -11,9 +11,11 @@ import {
     e2eLogInfo,
 } from "../wrappers/CustomLogger";
 import {browser} from "protractor";
-import {LoginPage} from "../pageObjects/LoginPage";
+import {getBaseURL} from "../env/environmentProps";
 
 
+export const client = browser.params.clientName;
+export const host = browser.params.hostName;
 
 setDefaultTimeout(180 * 1000);
 /* BeforeAll hook runs once at the start of e2e suite execution. Timeout is set to 3 min */
@@ -24,7 +26,8 @@ BeforeAll(async () => {
     await browser.waitForAngularEnabled(false);
     await browser.manage().timeouts().pageLoadTimeout(40000);
     await browser.manage().timeouts().implicitlyWait(1000);
-    await browser.manage().window().maximize();
+    await browser.manage().window().maximize() ;
+
 
 
     await e2eConsoleBrowserLogInfo(`
@@ -36,9 +39,9 @@ BeforeAll(async () => {
                                           `);
 
 
-    await new LoginPage().loginToAOL();
 
 
+    await browser.navigate().to(await getBaseURL());
 
 });
 

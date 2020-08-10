@@ -5,9 +5,10 @@ const pdf = require('pdf-parse');
 const downloadsFolder = require('downloads-folder');
 
 
-/* Returns complete text from specified pdf file in the system 'Downloads' folder
+/**
+ *  Returns complete text from specified pdf file in the system 'Downloads' folder
  */
-export const getTextFrompdf = (pdfName) => {
+export const getTextFrompdf = (pdfName:string):Promise<string> => {
     let dataBuffer = fs.readFileSync(`${downloadsFolder()}/${pdfName}.pdf`);
 
     return new Promise((resolve, reject) => {
@@ -20,8 +21,9 @@ export const getTextFrompdf = (pdfName) => {
 
 }
 
-/* Delete's the specified pdf file in the system 'Downloads' folder
-*/
+/**
+ *  Delete's the specified pdf file in the system 'Downloads' folder
+ */
 export const deletePdf = (pdfName) => {
     fs.remove(`${downloadsFolder()}/${pdfName}.pdf`, err => {
         if (err) return e2eLogError(`Unable to delete pdf file ${pdfName}. ERROR : ${err}`);

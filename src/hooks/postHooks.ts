@@ -10,7 +10,7 @@ import {After, AfterAll, Status} from "cucumber";
 import {browser} from "protractor";
 import {
     browserLogError,
-    e2eConsoleBrowserLogInfo, e2eLogError,
+    e2eConsoleBrowserLogInfo, e2eConsoleLogError, e2eLogError,
     e2eLogInfo
 } from "../wrappers/CustomLogger";
 import {CustomBrowserDriver} from "../wrappers/CustomBrowserDriver";
@@ -31,7 +31,7 @@ After(async function (scenario) {
         await this.attach(screenshot, "image/png");
         if (scenario.result.exception) {
             await this.attach(`Scenario Failure Reason : ${scenario.result.exception.message}`);
-            await e2eLogError(`AssertionError: ${scenario.result.exception.message}`);
+            await e2eConsoleLogError(`${scenario.result.exception.message}`);
         }
 
         await browser.refresh();

@@ -54,10 +54,10 @@ export const browserLogError = (logs) => {
     customLogger('ERROR', 'browser', logs);
 };
 
-export const e2eConsoleBrowserLogInfo = (logs) => {
-    e2eLogInfo(logs);
-    browserLogInfo(logs);
-    console.log(logs);
+export const e2eConsoleBrowserLogInfo = async (logs) => {
+     e2eLogInfo(logs);
+     browserLogInfo(logs);
+     console.log(logs);
 };
 
 export const e2eConsoleLogError = (logs) => {

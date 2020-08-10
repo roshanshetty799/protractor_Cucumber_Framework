@@ -1,53 +1,21 @@
 {
-  "baseURL": "finsyn.net.au",
-  "ing": {
+  "baseURL": "https://juliemr.github.io/protractor-demo/",
+  "TestClient": {
     "login": {
-      "username": "supportadmin",
-      "password": "finsyn"
+      "username": "username",
+      "password": "password"
     },
     "host": {
-      "websupport": {
-        "sqlServer": "wtmsql01\\sql2016",
-        "database": "ING_DEV2",
-        "webService": "wtmadmindev:9390/IngDev2WebServices"
+      "TestHostOne": {
+        "sqlServer": "serverName",
+        "database": "DatabaseName",
+        "webService": "SOAP_WebServiceURL"
       },
-      "webdev": {
-        "sqlServer": "wtmsql01\\sql2016",
-        "database": "ING_DEV1",
-        "webService": "wtmaisdev01:9380/IngDevWebServices"
+      "TestHostTwo": {
+        "sqlServer": "serverName",
+        "database": "DatabaseName",
+        "webService": "SOAP_WebServiceURL"
       }
-    },
-    "fund": {
-      "super": "INGD",
-      "pension": "INGD"
-    },
-    "categoryCode": {
-      "super": "A1",
-      "pension": "P1"
-    }
-  },
-  "statewide": {
-    "login": {
-      "username": "supportadmin",
-      "password": "finsyn"
-    },
-    "host": {
-      "websupport": {
-        "sqlServer": "WTMSQL01\\SQL2014",
-        "database": "Statewide_SWS_DEV2"
-      },
-      "webdev": {
-        "sqlServer": "WTMSQL01\\SQL2014",
-        "database": "Statewide_SWS_DEV1"
-      }
-    },
-    "fund": {
-      "super": "SWAC",
-      "pension": "ABRP"
-    },
-    "categoryCode": {
-      "super": "P3",
-      "pension": "P1"
     }
   }
 }

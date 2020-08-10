@@ -1,0 +1,1 @@
+npm test -- --params.clientName TestClient --params.hostName TestHostOne --suite TestCaseSuiteOne

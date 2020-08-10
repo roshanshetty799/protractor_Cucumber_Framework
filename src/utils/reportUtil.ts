@@ -6,14 +6,18 @@
 
 import {browser} from "protractor";
 import {getformattedCurrentDateAndTime} from "./dateUtil";
+import {moveFile} from "./fileSystemUtil";
+
 
 const report = require('multiple-cucumber-html-reporter');
 export const currentDateAndTime = getformattedCurrentDateAndTime();
 
-/* Generates an html report by reading the report.json file
-   located under src/reports/<Current Date and Time>/ which gets created post e2e execution
-*/
-export const generateHtmlReport = () => {
+/**
+ *  Generates an html report by reading the report.json file
+ *  located under src/reports/<Current Date and Time>/ which gets created post e2e execution
+ */
+export const generateHtmlReport = async () => {
+   await moveFile(`./report.json`,`./reports/${browser.params.clientName}/${browser.params.hostName}/${currentDateAndTime}/report.json`);
 
     let browserName, browserVersion, platform, platformVersion;
     browser.getCapabilities().then(async (caps) => {
@@ -27,10 +31,10 @@ export const generateHtmlReport = () => {
         */
 
         report.generate({
-            jsonDir: './reports/' + currentDateAndTime + '/',
-            reportPath: './reports/' + currentDateAndTime + '/',
+            jsonDir: `./reports/${browser.params.clientName}/${browser.params.hostName}/${currentDateAndTime}/`,
+            reportPath: `./reports/${browser.params.clientName}/${browser.params.hostName}/${currentDateAndTime}/`,
             openReportInBrowser: true,
-            reportName: 'AOL E2E Automation report',
+            reportName: 'E2E Automation report',
             pageTitle: 'Automation report',
             pageFooter: '<div><p> Custom footer test </p></div>',
             displayDuration: true,
