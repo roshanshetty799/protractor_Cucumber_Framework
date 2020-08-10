@@ -52,15 +52,14 @@ This Test Automation Framework makes it possible to run E2E test scenarios on We
       
       2. Navigate inside 'protractor_Cucumber_Framework' dir that you just cloned. 
       
-      3. Open cmd or Git Bash and type the following command : npm install. This would install all the necessary dependencies
-         Wait till you receive a success message. 
       
       
-	  4. Go to ./src/testRunner and double click on any of the runner file. These would run a sample test case depending 
-	     upon which one you run. 
+      
+	  3. Go to ./src/testRunner and double click on any of the runner file. These would run a sample test case depending 
+	     upon which one you run. The sample test case would run on a demo website. 
        
   
-      5. The browser should open up and text execution would begin. You can keep an eye on the console while the execution is 
+      4. The browser should open up and text execution would begin. You can keep an eye on the console while the execution is 
       in progress to monitor which step it is on. Once execution is complete, an execution report can be found under 'reports' dir.
       Open 'index.html' file in a browser to view it.  
 	  
