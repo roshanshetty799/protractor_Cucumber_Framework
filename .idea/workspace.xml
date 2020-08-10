@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9f59c4-7020-456a-9b1f-0aa096007cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pageObjects/SuperCalculatorPage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stepDefinitions/sampleStepDef.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Sample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testCases/TestCaseSuiteTwo/Sample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testRunners/testClient_HostOne.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testRunners/testClient_HostTwo.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/DataBaseCall.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/SoapCall.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wrappers/CustomSoapDriver.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protractor.conf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/protractor.conf.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/databaseHelpers/DataBasePage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/databaseHelpers/descriptionCodeInformation.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/env/environmentProps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/env/environmentProps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/env/environmentProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/env/environmentProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/postHooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/postHooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/preHooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/preHooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/AdminMemberSearchPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/BasePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/BasePage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/BeneficiariesPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/CentrelinkSchedulePage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/LoginPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/MoneyInPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/PensionPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/ProfilePage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/ReversionaryPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/ShareTradingPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/ValuationPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soapHelpers/SoapCall.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/adminLandingPageStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/centrelinkScheduleStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/contributeToYourSuperStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/contributionMixStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/dataBaseQueryStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/myBeneficiariesStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/pensionDetailsStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/resuableStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/reversionaryDetailsStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stepDefinitions/tradeShareAndExchangeTradedFundsStepDef.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Admin_Landing_Page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Beneficiary_Details.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Centrelink_Schedule.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Contribute_To_Your_Super.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Contribution_Mix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Pension_Details.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Reversionary_Details.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteOne/Trade_Share_and_Exchange_Traded_Funds.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteTwo/Beneficiary_Details.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/TestCaseSuiteTwo/Contribute_To_Your_Super.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/dateUtil.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/dateUtil.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/excelUtil.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/excelUtil.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/fileSystemUtil.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/fileSystemUtil.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/pdfUtil.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/pdfUtil.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/reportUtil.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/reportUtil.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/soapUtil.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomAssertion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomAssertion.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomBrowserDriver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomBrowserDriver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomLogger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomLogger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomSqlDriver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomSqlDriver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/CustomWait.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/CustomWait.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +97,7 @@
       <workItem from="1591241776595" duration="8700000" />
       <workItem from="1591844824070" duration="7913000" />
       <workItem from="1597031639373" duration="3972000" />
-      <workItem from="1597038607234" duration="2374000" />
+      <workItem from="1597038607234" duration="3097000" />
     </task>
     <servers />
   </component>
@@ -170,25 +109,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597040613603" />
-    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1597040857052">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1597041706002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597040857052" />
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597041706002" />
     <state width="1877" height="435" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
-    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1597040857052">
+    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1597041706001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597040857052" />
+    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597041706001" />
     <state width="1877" height="435" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
-    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1597040857052">
+    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1597041706001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597040857052" />
+    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597041706001" />
     <state width="1877" height="435" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
-    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1597040857052">
+    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1597041706002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597040857052" />
+    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597041706002" />
     <state width="1877" height="435" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591928821914" />
     <state x="2576" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1591844840002">
       <screen x="1920" y="0" width="1920" height="1040" />
