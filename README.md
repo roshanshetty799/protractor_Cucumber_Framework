@@ -14,14 +14,14 @@ This Test Automation Framework makes it possible to run E2E test scenarios on We
 
      .  
         ├── reports                # Contains E2E run report. This directory is not checked in and will be created after the first run
-	├── logs                   # Every driver action generates a custom log which is captured in this directory
+	    ├── logs                   # Every driver action generates a custom log which is captured in this directory
         ├── src                    
         │   ├── env                # Environment details are configured in environmentProps.json file located here.
         │   ├── hooks              # Functions/Calls to be made before/after scenarios are stored here
         │   ├── pageObjects        # Element locators and functions to perform actions on the application
         │   ├── stepDefinitions    # Cucumber Step definitions are detailed here
         │   ├── testCases          # Test Scenarios can be found under this dir  
-	│   ├── testRunner         # The Framework is designed to run on multiple environments. Each testRunner file would hold run parameter for one env. 
+	    │   ├── testRunner         # The Framework is designed to run on multiple environments. Each testRunner file would hold run parameter for one env. 
         │   ├── utils              # Helper functions for the framework
         │   └── wrappers           # Native functions for browser,SQL Driver,SOAP,WAIT etc. are wrapped in a custom function                
         ├── protractor.conf.ts     # Protractor run configuration details
