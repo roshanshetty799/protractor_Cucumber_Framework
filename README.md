@@ -3,7 +3,7 @@
 
 ## Description
 
-This Test Automation Framework makes it possible to run E2E test scenarios on Web Applications.The foundations of the framework are built upon two open source     tools Protractor and Cucumber. Protractor allows you to interact with the browser like a user would and Cucumber helps organising the test scenarios in an easy readable format. 
+This Test Automation Framework makes it possible to run E2E test scenarios on Web Applications.The foundations of the framework are built upon two open source tools Protractor and Cucumber. Protractor allows you to interact with the browser like a user would and Cucumber helps organising the test scenarios in an easy readable format. 
   Protractor is built for angular website and thus the framework won't need any custom wait/sleep method to your tests however I wanted the framework to be compatible with non-angular websites as well and so the framework has custom wait methods which are wrapped with browser(driver) calls. Report is generated after every run with the current Date and time. Framework has support for Database and SOAP calls.  	
 	
 	   
